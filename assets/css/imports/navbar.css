@@ -1,0 +1,33 @@
+.navbar {
+    padding: 24px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    background-color: var(--secondary-design-color);
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-link {
+    color: inherit;
+    padding: 0 !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link,
+.nav-link:hover {
+    color: var(--primary-design-color);
+}

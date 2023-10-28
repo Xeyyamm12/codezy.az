@@ -1,0 +1,64 @@
+section {
+    padding: 48px 0;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+section:nth-child(odd) {
+    position: relative;
+    color: var(--secondary-design-color);
+    background-color: var(--primary-design-color);
+}
+
+section:nth-child(odd) .slick-dots li button:before {
+    color: var(--secondary-design-color) !important;
+}
+
+section:nth-child(odd)::before {
+    inset: 0;
+    width: 100%;
+    content: "";
+    opacity: .2;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(even) {
+    background-color: var(--primary-bg-color);
+}
+
+section#hero::before {
+    background-image: url(/assets/img/backgrounds/hero.jpg);
+}
+
+section#faq::before {
+    background-image: url(/assets/img/backgrounds/faq.jpg);
+}
+
+section#team::before {
+    background-image: url(/assets/img/backgrounds/team.jpg);
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.section-title h4 {
+    margin: 0 auto;
+    font-weight: bold;
+    width: fit-content;
+    color: var(--secondary-design-color);
+}
+
+section:nth-child(even) .section-title h4 {
+    padding: 8px 16px;
+    border-radius: 36px;
+    background-color: var(--primary-design-color);
+}
+
+section:nth-child(even) .slick-dots li button:before {
+    color: var(--primary-design-color);
+}

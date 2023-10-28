@@ -1,0 +1,57 @@
+:root {
+    --primary-design-color: #6b5499;
+    --secondary-design-color: #fff;
+    --tertiary-design-color: #756399;
+    --quaternary-design-color: #fcfcfc;
+    --quinary-design-color: #555;
+    --senary-design-color: #dee2e6;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+button:focus,
+button:active {
+    margin: 0;
+    border: none;
+    outline: none;
+    color: inherit;
+    box-shadow: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.row>* {
+    margin-block: 16px;
+}
+
+.slick-track {
+    cursor: grab;
+}
+
+.slick-track:active {
+    cursor: grabbing;
+}
+
+.slick-track>* {
+    margin: 16px;
+}

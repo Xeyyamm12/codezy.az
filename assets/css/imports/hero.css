@@ -1,0 +1,53 @@
+#hero h1 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#hero a {
+  transition: 0.3s;
+  margin-top: 36px;
+  font-weight: bold;
+  padding: 16px 48px;
+  border-radius: 36px;
+  color: var(--primary-design-color);
+  background-color: var(--secondary-design-color);
+}
+
+
+#hero a:hover {
+  transform: rotate(2deg);
+}
+#modal-button {
+  border: none;
+  border-radius: 36px;
+  color: var(--tertiary-design-color);
+  background-color: var(--secondary-design-color);
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+#modal-button:hover {
+  background-color: var(--tertiary-design-color);;
+  box-shadow: 0px 2px 10px 10px #97B1BF;
+  color: var(--secondary-design-color);;
+}
+
+#staticBackdrop {
+  color: black;
+  backdrop-filter: blur(2px);
+  border-radius: 45px;
+  padding-top: 120px;
+}
+
+#staticBackdropLabel {
+  text-align: center;
+}
+.modal-body {
+  font-size: 15px;
+  height: 20vh;
+}   
+.modal-body-a{
+    padding: 0 !important;
+    border: none !important;
+}

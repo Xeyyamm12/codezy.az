@@ -1,0 +1,16 @@
+.btn {
+    border: none;
+    border-radius: 36px;
+}
+
+.btn.btn-dark {
+    color: var(--secondary-design-color);
+}
+
+.btn.btn-dark.btn-purple {
+    background-color: var(--primary-design-color);
+}
+
+.btn.btn-dark.btn-purple:hover {
+    background-color: var(--tertiary-design-color);
+}

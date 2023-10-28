@@ -1,0 +1,41 @@
+.imagebox {
+    border-radius: 36px;
+    background-color: var(--secondary-design-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.imagebox .imagebox-img {
+    position: relative;
+}
+
+.imagebox .imagebox-img img {
+    border-radius: 25px 25px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.imagebox .time-calendar {
+    right: 15px;
+    bottom: 15px;
+    padding: 4px 16px;
+    position: absolute;
+    border-radius: 36px;
+    color: var(--secondary-design-color);
+    background-color: var(--tertiary-design-color);
+}
+
+.imagebox .imagebox-caption {
+    display: flex;
+    padding: 32px 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagebox .imagebox-caption h4 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.imagebox .imagebox-caption .btn {
+    width: 100%;
+}

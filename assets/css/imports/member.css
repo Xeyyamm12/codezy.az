@@ -1,0 +1,77 @@
+.member {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 36px;
+    color: var(--secondary-design-color);
+}
+
+.member .member-info {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .3s;
+    position: absolute;
+}
+
+.member .member-info-content {
+    right: 0;
+    bottom: 0;
+    left: 50px;
+    position: absolute;
+    transition: bottom .3s;
+}
+
+.member .member-info-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.member .member-info-content span {
+    font-style: italic;
+}
+
+.member .social {
+    top: 0;
+    bottom: 0;
+    left: -50px;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    transition: left ease-in-out .3s;
+    background-color: rgba(107, 84, 153, .2);
+}
+
+.member .social a {
+    display: block;
+    margin-top: 16px;
+    transition: color .3s;
+}
+
+.member .social a:hover {
+    opacity: .8;
+}
+
+.member .social i {
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+.member:hover .member-info {
+    opacity: 1;
+    transition: .3s;
+    background: linear-gradient(0deg, rgba(107, 84, 153, .95) 0%, rgba(107, 84, 153, .95) 15%, rgba(255, 255, 255, 0) 100%);
+}
+
+.member:hover .member-info-content {
+    bottom: 30px;
+    transition: bottom .3s;
+}
+
+.member:hover .social {
+    left: 0;
+    transition: left ease-in-out .3s;
+}
